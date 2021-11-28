@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Feature.css";
 
 interface IFeature {
@@ -6,7 +6,7 @@ interface IFeature {
   text: string;
 }
 
-const Feature = ({ title, text }: IFeature) => {
+const Feature: FC<IFeature> = ({ title, text }) => {
   return (
     <div className="gpt3__features-container__feature">
       <div className="gpt3__features-container__feature-title">
