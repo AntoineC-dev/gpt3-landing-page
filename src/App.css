@@ -19,8 +19,7 @@ a {
 
 input:focus,
 input:active {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-  border-bottom-style: dashed;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.85);
 }
 
 .gradient__bg {
