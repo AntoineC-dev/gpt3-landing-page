@@ -1,26 +1,18 @@
 import React from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/logo.svg";
-import useToggle from "../../hooks/useToggle";
+
 import "./Navbar.css";
+import { logoSvg } from "../../assets";
+import { navigationData } from "../../data";
+import { useToggle } from "../../hooks";
 
 const Menu = () => (
   <>
-    <p>
-      <a href="#home">Home</a>
-    </p>
-    <p>
-      <a href="#wgpt3">What is GPT3?</a>
-    </p>
-    <p>
-      <a href="#possibility">Open AI</a>
-    </p>
-    <p>
-      <a href="#features">Case Studies</a>
-    </p>
-    <p>
-      <a href="#library">Library</a>
-    </p>
+    {navigationData.menuItems.map((item, index) => (
+      <p key={item.label + index}>
+        <a href={item.href}>{item.label}</a>
+      </p>
+    ))}
   </>
 );
 
@@ -37,7 +29,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={logoSvg} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />

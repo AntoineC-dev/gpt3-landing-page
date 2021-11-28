@@ -1,0 +1,24 @@
+{
+  "menuItems": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "What is GPT3?",
+      "href": "#wgpt3"
+    },
+    {
+      "label": "Open AI",
+      "href": "#possibility"
+    },
+    {
+      "label": "Case Studies",
+      "href": "#features"
+    },
+    {
+      "label": "Library",
+      "href": "#library"
+    }
+  ]
+}
