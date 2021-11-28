@@ -1,19 +1,17 @@
 import React from "react";
 import { Feature } from "../../components";
-import featuresData from "../../data/features.json";
+import { features, text, title } from "../../data/features.json";
 import "./Features.css";
 
 const Features = () => {
   return (
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">
-          The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
-        </h1>
-        <p>Request Early Access to Get Started</p>
+        <h1 className="gradient__text">{title}</h1>
+        <p>{text}</p>
       </div>
       <div className="gpt3__features-container">
-        {featuresData.map((item, index) => (
+        {features.map((item, index) => (
           <Feature key={item.title + index} title={item.title} text={item.text} />
         ))}
       </div>
