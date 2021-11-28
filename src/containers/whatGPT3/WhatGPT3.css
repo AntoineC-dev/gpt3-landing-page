@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 2rem;
   background: var(--color-footer);
+  border-radius: 5px;
 
   /* ff 3.6+ */
   background: -moz-radial-gradient(
@@ -53,7 +54,6 @@
 }
 
 .gpt3__whatgpt3-heading h1 {
-  font-family: var(--font-family);
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
@@ -61,7 +61,6 @@
 }
 
 .gpt3__whatgpt3-heading p {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;

@@ -7,21 +7,19 @@
   flex-direction: row;
 
   padding: 2rem;
-  margin: 4rem;
   border-radius: 1rem;
   background: var(--gradient-bar);
 }
 
 .gpt3__cta-content p {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 30px;
   color: #0e0e0e;
+  cursor: pointer;
 }
 
 .gpt3__cta-content h3 {
-  font-family: var(--font-family);
   font-weight: 800;
   font-size: 24px;
   line-height: 45px;
@@ -38,8 +36,6 @@
 .gpt3__cta-btn button {
   background: #000000;
   border-radius: 40px;
-
-  font-family: var(--font-family);
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
@@ -62,10 +58,6 @@
 }
 
 @media (max-width: 550px) {
-  .gpt3__cta {
-    margin: 4rem 2rem;
-  }
-
   .gpt3__cta-content h3 {
     font-size: 18px;
     line-height: 32px;

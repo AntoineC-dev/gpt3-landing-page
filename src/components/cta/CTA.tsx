@@ -4,7 +4,7 @@ import { ctaData } from "../../data";
 
 const CTA = () => {
   return (
-    <div className="gpt3__cta">
+    <div className="gpt3__cta section__margin">
       <div className="gpt3__cta-content">
         <p>{ctaData.link}</p>
         <h3>{ctaData.title}</h3>
