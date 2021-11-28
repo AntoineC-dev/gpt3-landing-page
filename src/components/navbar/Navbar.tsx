@@ -31,9 +31,9 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_logo">
           <img src={logoSvg} alt="logo" />
         </div>
-        <div className="gpt3__navbar-links_container">
+        <nav className="gpt3__navbar-links_container">
           <Menu />
-        </div>
+        </nav>
       </div>
       <div className="gpt3__navbar-sign">
         <Actions />
