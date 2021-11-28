@@ -36,11 +36,11 @@
   display: flex;
 }
 
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+.gpt3__whatgpt3-feature .gpt3__features-container_feature {
   margin: 0;
 }
 
-.gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
   max-width: 700px;
 }
 
@@ -76,7 +76,7 @@
   margin-top: 2rem;
 }
 
-.gpt3__whatgpt3-container .gpt3__features-container__feature {
+.gpt3__whatgpt3-container .gpt3__features-container_feature {
   flex: 1;
   margin: 1rem;
   min-width: 210px;
@@ -101,12 +101,12 @@
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+  .gpt3__whatgpt3-feature .gpt3__features-container_feature {
     flex-direction: column;
   }
 
-  .gpt3__whatgpt3-feature .gpt3__features-container__feature-text,
-  .gpt3__whatgpt3-container .gpt3__features-container__feature-text {
+  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text,
+  .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
   }
 
@@ -117,7 +117,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+  .gpt3__whatgpt3-container .gpt3__features-container_feature {
     margin: 1rem 0;
     min-width: 100%;
   }

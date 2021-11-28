@@ -1,0 +1,59 @@
+{
+  "title": "Do you want to step in to the future before others",
+  "ctaTxt": "Request Early Access",
+  "legalTxt": "Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved",
+  "copyrightTxt": "© 2021 GPT-3. All rights reserved.",
+  "footerMenus": [
+    {
+      "name": "Links",
+      "items": [
+        {
+          "label": "Overons",
+          "href": "#"
+        },
+        {
+          "label": "Social Media",
+          "href": "#"
+        },
+        {
+          "label": "Counters",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "items": [
+        {
+          "label": "Terms & Conditions",
+          "href": "#"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "label": "Contact",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "name": "Get In Touch",
+      "items": [
+        {
+          "label": "Crechterwoord K12 182 DK Alknjkcb",
+          "href": "#"
+        },
+        {
+          "label": "085-132567",
+          "href": "#"
+        },
+        {
+          "label": "info@company.net",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+}
