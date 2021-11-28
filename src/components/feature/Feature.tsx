@@ -1,10 +1,21 @@
 import React from "react";
 import "./Feature.css";
 
-const Feature = () => {
+interface IFeature {
+  title: string;
+  text: string;
+}
+
+const Feature = ({ title, text }: IFeature) => {
   return (
-    <div>
-      <h1>Feature</h1>
+    <div className="gpt3__features-container__feature">
+      <div className="gpt3__features-container__feature-title">
+        <div />
+        <h1>{title}</h1>
+      </div>
+      <div className="gpt3__features-container__feature-text">
+        <p>{text}</p>
+      </div>
     </div>
   );
 };
