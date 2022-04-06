@@ -3,6 +3,7 @@
   "author": "Antoine Cheminat",
   "version": "1.0.0",
   "license": "ISC",
+  "private": true,
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
